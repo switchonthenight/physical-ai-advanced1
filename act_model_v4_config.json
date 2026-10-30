@@ -1,0 +1,48 @@
+{
+  "chunk": 10,
+  "img_h": 192,
+  "img_w": 256,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "left",
+    "straight",
+    "right"
+  ],
+  "d_model": 256,
+  "n_head": 8,
+  "n_enc": 2,
+  "n_dec": 2,
+  "use_cvae": false,
+  "latent": 32,
+  "label_shift": 2,
+  "ang_thresh": 0.1,
+  "datasets": [
+    "dataset_act",
+    "dataset_recovery",
+    "dataset",
+    "dataset.04"
+  ],
+  "class_weight": [
+    3.0110058784484863,
+    0.42530184984207153,
+    3.158421516418457
+  ],
+  "episodes": {
+    "train": 151,
+    "val": 6
+  },
+  "aug": true,
+  "freeze": "layer2",
+  "epochs": 15,
+  "best_epoch": 12,
+  "best_bal_acc": 0.6841804326675733
+}

@@ -1,0 +1,30 @@
+{
+  "history_len": 3,
+  "img_h": 120,
+  "img_w": 160,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "left",
+    "straight",
+    "right"
+  ],
+  "datasets": [
+    "dataset",
+    "dataset.04"
+  ],
+  "label_shift": 2,
+  "class_weight": [
+    2.6903669834136963,
+    0.4472831189632416,
+    2.5472311973571777
+  ]
+}

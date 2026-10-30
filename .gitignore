@@ -1,0 +1,13 @@
+build/
+install/
+log/
+logs/*
+!logs/recovery_starts.csv
+dataset*/
+video_assets/
+*.bak
+*.bak2
+__pycache__/
+*.pyc
+act_smoke*
+*.pth
